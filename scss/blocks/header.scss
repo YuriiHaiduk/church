@@ -14,6 +14,7 @@
        line-height:39px;
        word-spacing: 5px;
        letter-spacing:1px;
+
      }
      margin-bottom:10px;
    }
@@ -86,8 +87,9 @@
   }
     .logo__description{
      h4{
-       font-size:11px;
-       line-height:12px;
+       font-size:13px;
+       line-height:13px;
+       text-align:center;
      }
     }
  }
@@ -99,16 +101,12 @@
   .logo__title{
     h2{
       font-size:16px;
+      text-align:center;
       font-weight:normal;
       line-height:17px;
     }
   }
-    .logo__description{
-     h4{
-       font-size:9px;
-       line-height:13px;
-     }
-    }
+  
  }
 }
 }
@@ -121,21 +119,17 @@
 
   .logo__title{
     h2{
-      font-size:12px;
+      font-size:19px;
+      text-align:center;
       font-weight:normal;
-      line-height:13px;
+      line-height:17px;
     }
   }
-    .logo__description{
-     h4{
-       font-size:10px;
-       line-height:9px;
-     }
-    }
+
  }
 }
 }
-@media (max-width: 354px) {
+@media (max-width: 355px) {
   .top{
     padding: 15px 0 0;
     .logo{
@@ -143,16 +137,11 @@
 
   .logo__title{
     h2{
-      font-size:11px;
-      line-height:10px;
+      font-size:18px;
+
     }
   }
-    .logo__description{
-     h4{
-       font-size:10px;
-       line-height:10px;
-     }
-    }
+
  }
 }
 }

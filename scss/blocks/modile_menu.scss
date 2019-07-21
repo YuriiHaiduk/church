@@ -156,13 +156,14 @@ nav > ul > li > a {
 html,
 body {
   margin: 0;
+  overflow-x: hidden;
    } }
 
 @media screen and (max-width: 320px) {
 html,
 body {
   margin: 0;
-  overflow-x: hidden; }
+  }
 .nav {
   width: 100%;
   -webkit-box-shadow: none;

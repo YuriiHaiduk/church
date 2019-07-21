@@ -8,7 +8,6 @@
   width:100%;
   box-sizing: border-box;
   position: relative;
-  display: flex;
   .slider__info{
     padding-left:35px;
     padding-top:35px;
@@ -180,7 +179,7 @@
       .slider__item{
         .slider__info{
           width:140px;
-          height:75px;
+          height:76px;
 
           padding-left:5px;
           margin-bottom:10px;
@@ -188,11 +187,11 @@
 
           .slider__title {
           font-size:0.8em;
-          line-height: 11px;
+          line-height: 9px;
           }
           p{
-            font-size:0.4em;
-            line-height: 10px;
+            font-size:0.5em;
+            line-height: 8px;
             padding-top:2px;
           }
         }
