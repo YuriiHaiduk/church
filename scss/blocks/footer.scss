@@ -29,13 +29,17 @@
       display: flex;
       justify-content: center;
     }
+    .footer__social_wrapper {
+      position: relative;
+      img{
+      position: absolute;
+      top:20%;
+      right:0%;
+    }
+    }
     .footer__menu{
-
-
       font-family:'PT Sans',sans-serif;
-
-      flex-basis:33%;
-
+      flex-basis:100%;
 
       li a{
         text-transform: uppercase;
@@ -69,6 +73,7 @@
     }
   }
 }
+
 .footer__horizontal-line{
   margin-top:30px;
   margin-bottom:10px;
@@ -104,5 +109,10 @@ h5{
       justify-content: center;
     }
   }
-
+  .footer__social_wrapper {
+    img{
+    left:40%;
+    top:140%!important;
+  }
+  }
 }

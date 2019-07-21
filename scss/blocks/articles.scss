@@ -15,6 +15,10 @@
   img{
     min-width:100%;
   }
+  img:hover{
+    filter:brightness(0.7);
+
+  }
 }
 .articles__item:first-child{
   margin-bottom:30px;
@@ -124,6 +128,9 @@
     padding-bottom:24px;
     img{
       min-width:100%;
+    }
+    img:hover{
+      filter:brightness(0.7);
     }
   }
   .aside_articles__item:nth-child(odd){
