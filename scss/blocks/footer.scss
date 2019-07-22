@@ -56,6 +56,7 @@
       flex-basis:40%;
 
     }
+
     .footer__logo_title{
 
       h2{
@@ -111,8 +112,9 @@ h5{
   }
   .footer__social_wrapper {
     img{
-    left:40%;
+    left:50%;
     top:140%!important;
+    transform:translateX(-50%);
   }
   }
 }
