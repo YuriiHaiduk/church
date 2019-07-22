@@ -7,8 +7,9 @@
 .additional_info__banner{
   background-color: #fff;
   padding:0;
-  width:65%;
+  width:760px;
   height:260px;
+
 }
 .slider2{
   background-color: #f7f7f7;
@@ -16,7 +17,7 @@
   .owl-dots {
     text-align: center;
     position: absolute;
-    bottom:2%;
+    bottom:1.5%;
     left:48%; }
     .owl-dots .owl-dot {
       outline:none;
@@ -37,11 +38,8 @@
     opacity:1;}
 
 .slider_2_item{
-  display:flex;
-  align-items: center;
-  width:65%;
-  box-sizing: border-box;
-  position: relative;
+  min-width:100%;
+  min-height: 100%!important;
 }
 }
 .additional_info__facebook,.additional_info__banner{
@@ -65,11 +63,12 @@
 
 }
 .slider2__img img {
+  width:760px;
   height:260px;
    }
 
 //адаптив
-@media (max-width:1120px){
+@media (max-width:1180px){
   .slider2{
     align-items: center;
     width:100%;
